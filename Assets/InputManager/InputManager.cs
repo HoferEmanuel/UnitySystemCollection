@@ -5,16 +5,7 @@ using UnityEngine;
 namespace DigitalDisaster
 {
     public class InputManager : MonoBehaviour
-
     {
-        void Start()
-        {
-        
-        }
 
-        void Update()
-        {
-        
-        }
     }
 }

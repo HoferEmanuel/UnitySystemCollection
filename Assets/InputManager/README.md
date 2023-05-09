@@ -9,7 +9,3 @@
     - **In Unity-Editor: Window > PackageManager > UnityRegistry > install Input System > restart Editor**
 
     > if you´re having problems check if <ins> **Both/InputSystemPackage** </ins> is selected under **In nity-Editor: Edit > ProjectsSettings > Player > Other Settings > Active Input Handling**
-
-2. Setup Input-Actions
-    - RightClick in Assets-Folder > Create > create InputActions (I called it ***PlayerInputActions*** )
-    - 
