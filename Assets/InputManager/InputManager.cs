@@ -6,6 +6,6 @@ namespace DigitalDisaster
 {
     public class InputManager : MonoBehaviour
     {
-        //hallo vom script
+        
     }
 }
