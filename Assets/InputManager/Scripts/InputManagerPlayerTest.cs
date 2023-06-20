@@ -6,12 +6,18 @@ namespace DigitalDisaster
 {
     public static class InputManagerPlayerTest
     {
-        //get a reference to the InputManager-Script
         [SerializeField] private InputManager inputManager;
+        [SerializeField] private Vector3 moveDirection;
+
+        private void Awake()
+        {
+            //get a reference to the InputManager-Script
+            inputManager = GetComponent<InputManager>();    
+        }
         
         private void Update()
         {
-                
+            //read an input-value directly from your input-manager
         }
         
         public void Dash()
