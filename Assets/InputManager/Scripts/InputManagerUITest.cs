@@ -6,9 +6,11 @@ namespace DigitalDisaster
 {
     public static class InputManagerUITest
     {
+        bool isPaused = false;
         public static void PauseGame()
         {
-            Debug.Log("Pause was toggled");
+            isPaused = !isPaused;
+            Debug.Log("pause: " + isPaused);
         }
     }
 }

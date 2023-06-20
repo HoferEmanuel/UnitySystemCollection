@@ -4,6 +4,8 @@ namespace DigitalDisaster
 {
     public class InputManager : MonoBehaviour
     {
+        //values like sprinting and movement get read inside the InputManagerPlayerTest
+
         //Generated Input-System Script
         PlayerInputActions controls;
 
@@ -16,9 +18,9 @@ namespace DigitalDisaster
             //create new object for playerinput-script
             controls = new PlayerInputActions();
 
+            //get reference to specific inputs
             playerControls = controls.PlayerActions;
             uiControls = controls.UIActions;
-
 
             AssignPlayerControls();
             AssignUIControls();
