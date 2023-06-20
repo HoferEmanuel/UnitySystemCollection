@@ -6,12 +6,20 @@ namespace DigitalDisaster
 {
     public static class InputManagerPlayerTest
     {
-        public static void Dash()
+        //get a reference to the InputManager-Script
+        [SerializeField] private InputManager inputManager;
+        
+        private void Update()
+        {
+                
+        }
+        
+        public void Dash()
         {
             Debug.Log("Dash input");
         }
 
-        public static void Jump()
+        public void Jump()
         {
             Debug.Log("Dash input");
         }
